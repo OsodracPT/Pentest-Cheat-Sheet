@@ -1,0 +1,5 @@
+git pull
+git checkout gh-pages
+git merge master gh-pages
+mdbook build
+cp book/* .
